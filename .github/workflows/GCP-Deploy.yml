@@ -18,9 +18,8 @@ jobs:
             ${{ runner.os }}-maven-
       - uses: actions/setup-java@v3
         with:
-          distribution: 'adopt'
+          distribution: 'temurin'
           java-version: '17'
-          java-package: jdk
       - name: Maven build .jar file
         run: mvn -B package --file pom.xml -DskipTests
       - id: 'auth'
