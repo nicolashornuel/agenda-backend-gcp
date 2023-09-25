@@ -1,0 +1,21 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "features": {
+    "ghcr.io/devcontainers/features/java:1": {
+      "version": 17,
+      "jdkDistro": "temurin",
+      "installMaven": true,
+      "installAnt": true
+    },
+    "ghcr.io/devcontainers-contrib/features/tomcat-sdkman:2": {
+      "jdkVersion": 17,
+      "jdkDistro": "temurin"
+    }
+  },
+  "customizations": {
+		"vscode": {
+			"settings": {},
+			"extensions": []
+		}
+  }
+}
