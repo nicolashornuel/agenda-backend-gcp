@@ -14,11 +14,20 @@ https://console.cloud.google.com/iam-admin/iam?project=cloudrun-java
 https://gcp.permissions.cloud/iam/artifactregistry  
 1 - artifactregistry.repositories.uploadArtifacts  
 App Engine Deployer (roles/appengine.deployer)  
-Artifact Registry Administrator (roles/artifactregistry.admin)  
+Artifact Registry Administrator (roles/artifactregistry.admin)  X  
 Artifact Registry Repository Administrator (roles/artifactregistry.repoAdmin)  
 Artifact Registry Writer (roles/artifactregistry.writer)  
 Cloud Build Service Account (roles/cloudbuild.builds.builder)  
-Cloud Build Service Agent (roles/cloudbuild.serviceAgent)  
+Cloud Build Service Agent (roles/cloudbuild.serviceAgent) 
+
+2 - run.services.get
+Editor (roles/editor)   
+Owner (roles/owner)  
+Cloud Run Admin (roles/run.admin)
+Cloud Run Developer (roles/run.developer)
+Cloud Run Viewer (roles/run.viewer)  X
+Serverless Integrations Service Agent (roles/runapps.serviceAgent)
+Viewer (roles/viewer)
 
 Rôles :   
 	- Compte de service Cloud Build  
