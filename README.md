@@ -11,12 +11,13 @@ gcloud config set project $GCP_APP_NAME
 
 https://console.cloud.google.com/run/detail/europe-west9/agenda-backend/logs?project=cloudrun-java  
 https://console.cloud.google.com/iam-admin/iam?project=cloudrun-java  
-https://gcp.permissions.cloud/iam/artifactregistry  
+https://gcp.permissions.cloud/iam/artifactregistry   
+
 1 - artifactregistry.repositories.uploadArtifacts  
 App Engine Deployer (roles/appengine.deployer)  
-Artifact Registry Administrator (roles/artifactregistry.admin)  X  
+Artifact Registry Administrator (roles/artifactregistry.admin)  
 Artifact Registry Repository Administrator (roles/artifactregistry.repoAdmin)  
-Artifact Registry Writer (roles/artifactregistry.writer)  
+Artifact Registry Writer (roles/artifactregistry.writer)  X
 Cloud Build Service Account (roles/cloudbuild.builds.builder)  
 Cloud Build Service Agent (roles/cloudbuild.serviceAgent) 
 
@@ -24,10 +25,16 @@ Cloud Build Service Agent (roles/cloudbuild.serviceAgent)
 Editor (roles/editor)   
 Owner (roles/owner)  
 Cloud Run Admin (roles/run.admin)
-Cloud Run Developer (roles/run.developer)
-Cloud Run Viewer (roles/run.viewer)  X
+Cloud Run Developer (roles/run.developer)  X
+Cloud Run Viewer (roles/run.viewer)  
 Serverless Integrations Service Agent (roles/runapps.serviceAgent)
-Viewer (roles/viewer)
+Viewer (roles/viewer)  
+
+3 - run.services.create  
+Editor (roles/editor)  
+Owner (roles/owner)  
+Cloud Run Admin (roles/run.admin)  
+Cloud Run Developer (roles/run.developer)  X
 
 Rôles :   
 	- Compte de service Cloud Build  
