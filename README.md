@@ -36,6 +36,13 @@ Owner (roles/owner)
 Cloud Run Admin (roles/run.admin)  
 Cloud Run Developer (roles/run.developer)  X
 
+4 - iam.serviceAccounts.actAs  
+Agent de service Cloud Deploy
+Agent de service Cloud Run
+Agent de service de Compute Engine
+Développeur Cloud Run
+Rédacteur Artifact Registry
+
 Rôles :   
 	- Compte de service Cloud Build  
 	- Développeur Cloud Run  
